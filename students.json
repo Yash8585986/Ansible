@@ -1,0 +1,49 @@
+{
+ "students" : [
+    {
+      "firstname": "Yashwant",
+      "DOB": "1990-01-01",
+
+      "Addresses" : [
+        {
+          "type": "home",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "country": "India"
+        },
+        {
+          "type": "work",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "country": "India"
+        }
+
+
+      ],
+
+      "skills":["Python","Ansible","Docker"]
+    },
+    {
+      "firstname": "Rohit",
+      "DOB": "1992-05-15",
+
+      "Addresses" : [
+        {
+          "type": "home",
+          "city": "Delhi",
+          "state": "Delhi",
+          "country": "India"
+        },
+        {
+          "type": "work",
+          "city": "Gurgaon",
+          "state": "Haryana",
+          "country": "India"
+        }
+      ],
+
+      "skills":["Java","Kubernetes","AWS"]
+    }
+ ]
+ 
+}

@@ -1,0 +1,23 @@
+- name: "Yashwanth"   
+  dob": "2000-01-01"
+  roll_no: 1
+  mobile_no: "1234567890"
+  address:
+  - flat_no: "101"
+    building_name: "ABC Apartments"
+    street: "Main Street"
+    city: "Hyderabad"
+    state: "Telangana"
+    pincode: "500001"
+    
+- name: "Rohit"
+  dob": "2000-02-01"
+  roll_no: 2
+  mobile_no: "0987654321"
+  address: 
+  - flat_no: "202"
+    building_name: "XYZ Apartments"
+    street: "Second Street"
+    city: "Hyderabad"
+    state: "Telangana"
+    pincode: "500002"

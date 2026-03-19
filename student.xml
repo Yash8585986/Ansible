@@ -1,0 +1,36 @@
+<students>
+	<student>
+		<Name>Yashwanth</Name>
+		<DOB>1990-01-01</DOB>
+		<email>yashwanth@example.com</email>
+		<Address>
+			<permanent>
+				<Street>123 Main St</Street>
+				<City>Hyderabad</City>
+				<State>Telangana</State>
+				<ZipCode>500001</ZipCode>
+			</permanent>
+			<current>
+				<Street>456 Park Ave</Street>
+				<City>Hyderabad</City>
+			</current>
+		</Address>
+	</student>
+	<student>
+		<Name>Ramesh</Name>
+		<DOB>1990-01-01</DOB>
+		<email>ramesh@example.com</email>
+		<Address>
+			<permanent>
+				<Street>123 Main St</Street>
+				<City>Hyderabad</City>
+				<State>Telangana</State>
+				<ZipCode>500001</ZipCode>
+			</permanent>
+			<current>
+				<Street>456 Park Ave</Street>
+				<City>Hyderabad</City>
+			</current>
+		</Address>
+	</student>
+</students>
