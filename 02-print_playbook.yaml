@@ -1,6 +1,6 @@
-- name: "Print a message"
+- name: Print a message
   hosts: webservers
   tasks:
-  - name: "Print a message to the console"
+  - name: Print a message to the console
     ansible.builtin.debug:
       msg: "Hello, this is a message from Ansible!"
