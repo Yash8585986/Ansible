@@ -1,7 +1,7 @@
 - name: Install and run ngnix
   hosts: webservers
   tasks:
-  -name: install ngnix
+  - name: Install ngnix
     ansible.builtin.package:
       name: ngnix
       state: present
