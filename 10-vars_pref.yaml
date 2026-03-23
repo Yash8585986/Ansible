@@ -10,7 +10,7 @@
     prompt: Please enter name
     private: false
   tasks:
-  - name: "Print task level variables"
+  - name: Print name
     vars:
       Name: "Ansible form task level"
     ansible.builtin.debug:
