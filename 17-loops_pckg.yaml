@@ -1,4 +1,4 @@
-- name: install packages using loop
+- name: install packages using loops
   hosts: local
   connection: local
   became: yes
