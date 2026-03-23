@@ -1,8 +1,8 @@
-- name: play level variables
+- name: variable preference
   hosts: local
   connection: local
   vars:
-    Name: "Ansible form play level"
+    NAME: "Ansible from PLAY"
   vars_files:
   - course.yaml
   vars_prompt:
@@ -10,8 +10,8 @@
     prompt: Please enter name
     private: false
   tasks:
-  - name: Print name
+  - name: print name
     vars:
-      Name: "Ansible form task level"
+      NAME: "Ansible from TASK"
     ansible.builtin.debug:
-      msg: "HI {{ NAME }}" 
+      msg: "Hi {{ NAME }}"
