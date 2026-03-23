@@ -2,10 +2,11 @@
   hosts: local
   connection: local
   tasks:
-  - name: print names
-  ansible.builtin.debug:
+   - name: print names
+     ansible.builtin.debug:
       msg: "Hello {{ item }}"
-  loop:
-  - Ramesh
-  - Suresh
-  - Naresh     
+     loop:
+        - Raju
+        - Ramesh
+        - Suresh
+        - Mahesh
