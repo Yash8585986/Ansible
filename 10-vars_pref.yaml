@@ -4,15 +4,14 @@
   vars:
     Name: "Ansible form play level"
   vars_files:
-    -course.yaml
+  - course.yaml
   vars_prompt:
-    - name: NAME
-      prompt: Please enter name
-      private: false
+  - name: NAME
+    prompt: Please enter name
+    private: false
   tasks:
   - name: "Print task level variables"
     vars:
       Name: "Ansible form task level"
     ansible.builtin.debug:
       msg: "HI {{ NAME }}" 
-      
