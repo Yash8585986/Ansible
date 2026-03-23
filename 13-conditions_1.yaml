@@ -1,4 +1,4 @@
-- name : check a number is greater than 10 or not
+- name: check a number is greater than 10 or not
   hosts: local
   connection: local
   vars:
@@ -7,4 +7,4 @@
   - name: check number is greater than 10 or not
     ansible.builtin.debug:
       msg: "Number is greater than 10"
-    when: NUMBER > 5
+    when: NUMBER > 5 
