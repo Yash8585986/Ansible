@@ -1,0 +1,23 @@
+- name: Yashwanth
+  DOB: "01/01/1991"
+  mobileNumber: 123456
+  address: 
+  - flat number: 104
+    road number: "Gandi nagar"
+    Type: current
+  - flat number: 104
+    road number: "Gandi nagar"
+    Type: current
+
+- name: Suresh
+  DOB: "01/01/1991"
+  mobileNumber: 123456
+  address: 
+  - flat number: 104
+    road number: "Gandi nagar"
+    Type: current
+  - flat number: 104
+    road number: "Gandi nagar"
+    Type: current
+
+  
