@@ -1,0 +1,10 @@
+- name: "Intsall httpd service"
+  hosts: node
+  become: true
+  tasks:
+    - name: "Installation of httpd dervice"
+      ansible.builtin.package:
+        name: httpd
+        state: present
+
+
