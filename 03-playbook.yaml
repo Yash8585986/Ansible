@@ -1,6 +1,6 @@
 - name: "Install nginx"
   hosts: node
-  became: yes
+  become: yes
   tasks:
     - name: "Install the nginx service"
       ansible.builtin.package: 
