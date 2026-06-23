@@ -1,0 +1,11 @@
+- name: "Variables"
+  hosts: local
+  connection: local
+  vars_files:
+  - course.yaml  
+  tasks:
+  - name: "Learning devops"
+    vars: 
+      COURSE: "Ansbile"
+    ansible.builtin.debug:
+      msg : "Course is : {{ COURSE }}, Trainer is: {{ Trainer }}"
