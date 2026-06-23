@@ -6,6 +6,6 @@
     DURATION: "140hrs"
     Trainer: "Shiva kumar reddy"
   tasks:
-    - name: "Learning devops"
-      ansible.builin.debug:
-        msg : "Course is : {{ COURSE }}, Trainer is: {{ Trainer }}"
+  - name: "Learning devops"
+    ansible.builin.debug:
+      msg : "Course is : {{ COURSE }}, Trainer is: {{ Trainer }}"
