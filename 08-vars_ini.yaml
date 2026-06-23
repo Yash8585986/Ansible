@@ -4,7 +4,5 @@
   
   tasks:
   - name: "Learning devops"
-    vars: 
-      COURSE: "Ansbile"
     ansible.builtin.debug:
       msg : "Course is : {{ COURSE }} "
