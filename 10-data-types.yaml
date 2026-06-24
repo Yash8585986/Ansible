@@ -16,7 +16,7 @@
     - k8's
   tasks:
     - name: "print the varaibles"
-      ansible.buitlin.debug:
+      ansible.builtin.debug:
         msg: |
           PROGRAM: {{ PROGRAM }}
           Duration: {{ Duration }}
