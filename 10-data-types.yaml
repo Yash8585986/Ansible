@@ -1,0 +1,25 @@
+- name: "Demo on data types"
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "Devsecops with aws"
+    Duration: "140"
+    IS_LIVE: TRUE
+    DETAILS:
+      MONTHS: "4"
+      TRAINER: "Shiva"
+    TOPICS:
+    - linux
+    - ansible
+    - docker
+    - terraform
+    - k8's
+  tasks:
+    - name: "print the varaibles"
+      ansible.buitlin.debug:
+        msg: |
+          PROGRAM: {{ PROGRAM }}
+          Duration: {{ Duration }}
+          IS_LIVE: {{ IS_LIVE }}
+          Details: {{DETAILS }}
+          Topics: {{ TOPICS }}
