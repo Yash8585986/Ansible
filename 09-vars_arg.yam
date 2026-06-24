@@ -1,0 +1,8 @@
+
+- name: "Variables"
+  hosts: local
+  connection: local  
+  tasks:
+  - name: "Learning devops"
+    ansible.builtin.debug:
+      msg : "Course is : {{ NAME }}"
