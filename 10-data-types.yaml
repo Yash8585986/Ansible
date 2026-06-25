@@ -18,8 +18,8 @@
     - name: "print the varaibles"
       ansible.builtin.debug:
         msg: |
-          PROGRAM: {{ PROGRAM }} \n
-          Duration: {{ Duration }} \n
-          IS_LIVE: {{ IS_LIVE }} \n
-          Details: {{DETAILS }} \n
+          PROGRAM: {{ PROGRAM }} 
+          Duration: {{ Duration }} 
+          IS_LIVE: {{ IS_LIVE }} 
+          Details: {{DETAILS }} 
           Topics: {{ TOPICS }}
