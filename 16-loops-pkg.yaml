@@ -1,6 +1,6 @@
 - name: "demo on install package"
   hosts: local
-  became: yes
+  become: yes
   connection: local
   tasks:
     - name: "Demo on install package"
