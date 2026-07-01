@@ -4,5 +4,5 @@
   tasks:
     - name: "Demo on conditions"
       ansible.builtin.debug:
-        msg: "Hello {{ Greeting }}"
+        msg: "Hello {{ Greeting | default('Good morning') }}"
       
