@@ -1,8 +1,13 @@
 - name: "Demo on conditons"
   hosts: local
   connection: local
+  vars:
+    name: "ram,rahim,robert,ramesh,suresh"
   tasks:
     - name: "Demo on conditions"
       ansible.builtin.debug:
         msg: "Hello {{ Greeting | default('Good morning') }}"
       
+    - name: "convert String to list"
+      ansible.builtin.debug:
+        msg: "{{ name.split(',') }}"
