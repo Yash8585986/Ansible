@@ -1,23 +1,27 @@
-- name: Yashwanth
-  DOB: "01/01/1991"
-  mobileNumber: 123456
-  address: 
-  - flat number: 104
-    road number: "Gandi nagar"
-    Type: current
-  - flat number: 104
-    road number: "Gandi nagar"
-    Type: current
-
-- name: Suresh
-  DOB: "01/01/1991"
-  mobileNumber: 123456
-  address: 
-  - flat number: 104
-    road number: "Gandi nagar"
-    Type: current
-  - flat number: 104
-    road number: "Gandi nagar"
-    Type: current
-
+- name: "Sivakumar Reddy"
+  dob: "1999-01-01"
+  mobileNumber: 1234567890
+  addresses:
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: current
   
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: perm
+
+- name: "Suresh"
+  dob: "1999-01-01"
+  mobileNumber: 1234567890
+  addresses:
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: current
+  
+  - flatNumber: 104
+    street: "gandhi nagar"
+    city: hyderabad
+    type: perm
