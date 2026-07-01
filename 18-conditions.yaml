@@ -36,5 +36,5 @@
       ansible.builtin.debug:
         msg: "{{ tagsMap |  dict2items }}"
     - name: "convert list to maps"
-      anxible.builtin.debug:
+      ansible.builtin.debug:
         msg "{{ tagslist | items2dict }}"
