@@ -3,6 +3,10 @@
   connection: local
   vars:
     name: "ram,rahim,robert,ramesh,suresh"
+    tags:
+      name: "Yashwanth"
+      project: "Roboshop"
+      component: "Frontend"
   tasks:
     - name: "Demo on conditions"
       ansible.builtin.debug:
@@ -10,4 +14,8 @@
       
     - name: "convert String to list"
       ansible.builtin.debug:
-        msg: "{{ name.split(',') }}"
+        msg: "{{ name | split(',') }}"
+
+    - name: "convert map to list"
+      ansible.builtin.debug:
+        msg: "{{ tags |  dict2items }}"
