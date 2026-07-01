@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    name2: "ram,rahim,robert,ramesh,suresh"
+    name: "ram,rahim,robert,ramesh,suresh"
     tagsMap:
       name1: "Yashwanth"
       project: "Roboshop"
