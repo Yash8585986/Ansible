@@ -1,0 +1,8 @@
+- name: "Demo on conditons"
+  hosts: local
+  connection: local
+  tasks:
+    - name: "Demo on conditions"
+      ansible.builtin.debug:
+        msg: "Hello {{ Greeting }}"
+      
