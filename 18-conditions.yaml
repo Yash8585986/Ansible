@@ -4,7 +4,7 @@
   vars:
     name: "ram,rahim,robert,ramesh,suresh"
     tagsMap:
-      name: "Yashwanth"
+      name1: "Yashwanth"
       project: "Roboshop"
       component: "Frontend"
     tagslist:
@@ -35,6 +35,7 @@
     - name: "convert map to list"
       ansible.builtin.debug:
         msg: "{{ tagsMap |  dict2items }}"
+
     - name: "convert list to maps"
       ansible.builtin.debug:
-        msg "{{ tagslist | items2dict }}"
+        msg: "{{ tagslist | items2dict }}"
