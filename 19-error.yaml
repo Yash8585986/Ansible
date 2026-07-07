@@ -1,5 +1,6 @@
 - name: "Demo on error handling"
   hosts: local
+  become: yes
   connection: local
   tasks:
     - name: "error handling"
